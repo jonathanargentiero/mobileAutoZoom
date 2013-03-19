@@ -22,8 +22,8 @@ mobileAutoZoom replace the meta "viewport" according to the window.innerWidth / 
 
 <pre>$(function(){  
     var layout_width = 1280; // your layout width
-    if( isMobile.any() ){ 
-        mobileAutoZoom(layout_width);
+    if( isMobile.any() ){ // checks if the browser is from a mobile device
+        mobileAutoZoom(layout_width); // set the zoom level according the layout width
     }
 })
 </pre>
