@@ -9,6 +9,9 @@ Hello Developers,
 Would you like to auto-set the "initial-zoom" in the "viewport" meta as much as it's necessary to display your template.
 mobileAutoZoom is what you need:
 
+## How it works
+mobileAutoZoom replace the meta "viewport" according to the window.innerWidth / layout_width division that makes the zoom level desidered.
+
 ## Quick start
 
 * Include jQuery js ("http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
