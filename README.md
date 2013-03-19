@@ -17,8 +17,7 @@ mobileAutoZoom is what you need:
 
 ## (Unecessary) Deep Guide 
 
-<pre>           
-$(function(){  
+<pre>$(function(){  
     var layout_width = 1280; // your layout width
     if( isMobile.any() ){ 
         mobileAutoZoom(layout_width);
