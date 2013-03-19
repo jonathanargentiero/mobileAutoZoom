@@ -11,13 +11,14 @@ mobileAutoZoom is what you need:
 
 ## Quick start
 
-* Include jQuery js (<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>)
-* Include mobileAutoZoom js (<script src="mobileAutoZoom.min.js" type="text/javascript"></script>)
-* Call the function "mobileAutoZoom(layout_width)" on body load where layout_width is an integer of your choice
+* Include jQuery js <pre><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script></pre>
+* Include mobileAutoZoom js <pre><script src="mobileAutoZoom.min.js" type="text/javascript"></script></pre>
+* Call the function <pre>mobileAutoZoom(layout_width)</pre> on body load where layout_width is an integer of your choice
 
 ## (Unecessary) Deep Guide 
 
-`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<pre>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="mobileAutoZoom.min.js" type="text/javascript"></script>
 <script type="text/javascript">            
     $(function(){  
@@ -26,4 +27,5 @@ mobileAutoZoom is what you need:
             mobileAutoZoom(layout_width);
         }
     })
-</script>`
+</script>
+</pre>
